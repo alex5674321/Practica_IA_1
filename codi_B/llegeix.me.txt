@@ -1,0 +1,13 @@
+Àlex Flores García i Natan Darius Santa
+
+Creiem que no cal aclarar res. EL codi esta ple de comentaris per tal de seguir amb cura que es el que volem avaluar en cada pas per tal de no perdre el fil d'on som.
+
+Com a tal, el problema preten que creem un equip que pugui tenir el cost més baix possible en funció d'un cost:
+    Cost "humà"
+    Cost de compatibilitat
+    Cost de desviació
+
+Llavors la idea inicial es amb uns randoms de l'equip principal, veure si com evoluciona el cost. Per això, agafem mostres
+on hi arriba alguns casos a no torbar la més optima (cas seed 31 amb costos de 15/17, cas seed 20 amb costos de 19 nomes o cas de seed 80 costos de 17)
+
+Com hem comprovat, el hill climbing no garanteix en les seves iteracions de cap manera que ens doni el més optim pero si fem multiples vegades (fem 5 per tenir alguna mostra), podriem definir amb prou exactitud que hi ha un maxim concret on hi trobem el millor cost
